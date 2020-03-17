@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import { Grid } from 'semantic-ui-react'
 
 class SelectAlcohol extends Component {
   state = {
@@ -24,26 +25,28 @@ class SelectAlcohol extends Component {
     if (this.state.alcoholList !== []) {
       alcoholIndex = this.state.alcoholList.map(alcohol => {
         return (
-          <div
-            className='card small'
-            key={alcohol.ProductId}
-            id='alcohol-container'
-          >
-            <div className='image'>
-              <img
-                className='drinkImage'
-                src={alcohol.Thumbnail.ImageUrl}
-                alt='alcohol selection'
-              />
-            </div>
-            <div className='alcohol-content'>
-              <div className='header'>{alcohol.ProductNameBold}</div>
-              <div className='description'>{alcohol.ProductNameThin}</div>
-              <div className='description'>{alcohol.PriceText}</div>
-              <div className='description bottom'>{alcohol.VolumeText}</div>
-            </div>
-          </div>
-        )
+          // <div
+          //   className="card small"
+          //   key={alcohol.ProductId}
+          //   id="alcohol-container"
+          // >
+            <Grid.Row columns={6}>
+              <Grid.Column>
+                <div className="image">
+                  <img
+                    className="drinkImage"
+                    src={alcohol.Thumbnail.ImageUrl}
+                    alt="alcohol selection"
+                  />
+                </div>
+
+                {alcohol.ProductNameBold}
+                {alcohol.ProductNameThin}
+                {alcohol.PriceText}
+                {alcohol.VolumeText}
+              </Grid.Column>
+            </Grid.Row>
+        );
       })
     }
     return (
