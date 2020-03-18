@@ -1,36 +1,37 @@
 body {
-
 }
+
 li {
-    list-style-type: none !important;
-    display: inline-block !important;
-  }
-  #specific_cocktail {
-    margin-top: 40px !important;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  .small {
-    width: 150px !important;
-  }
-  
-  .description.bottom {
-    vertical-align: bottom !important;
-  }
-  
-  .top {
-    margin-top: 10px;
-  }
-  
-  #cocktail_list {
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .right {
-      float: right;
-  }
-  .left {
-    float: left;
+  list-style-type: none !important;
+  display: inline-block !important;
+}
+
+#specific_cocktail {
+  margin-top: 40px !important;
+  text-align: center;
+  justify-content: center;
+}
+
+.small {
+  width: 150px !important;
+}
+
+.description.bottom {
+  vertical-align: bottom !important;
+}
+
+.top {
+  margin-top: 10px;
+}
+
+#cocktail_list {
+  justify-content: center;
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
 }

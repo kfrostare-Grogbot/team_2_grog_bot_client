@@ -6,7 +6,7 @@ import { Logo } from './assets/grog_bot_small.png'
 const App = () => {
   return (
     <>
-      <img src={require("./assets/grog_bot_small.png")} />
+      <img src={require('./assets/grogbot_logo.png')} />
       <SelectIngredients />
     </>
   );
