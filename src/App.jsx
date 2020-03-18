@@ -1,14 +1,17 @@
 import React from "react";
 import SelectIngredients from "./components/SelectIngredients";
-import 'semantic-ui-css/semantic.min.css'
-import { Logo } from './assets/grog_bot_small.png'
+import "semantic-ui-css/semantic.min.css";
 
 const App = () => {
   return (
-    <>
-      <img src={require('./assets/grogbot_logo.png')} />
+    <div id="logo">
+      <img id="logo" src={require("./assets/grog_bot_small.png")} />
+      <div>
       <SelectIngredients />
-    </>
+      </div>
+    </div>
+   
+    
   );
 };
 
