@@ -7,11 +7,9 @@ const App = () => {
     <div id="logo">
       <img id="logo" src={require("./assets/grog_bot_small.png")} />
       <div>
-      <SelectIngredients />
+        <SelectIngredients />
       </div>
     </div>
-   
-    
   );
 };
 

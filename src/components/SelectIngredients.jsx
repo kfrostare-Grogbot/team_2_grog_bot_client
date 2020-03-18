@@ -58,7 +58,7 @@ class SelectIngredients extends Component {
                   data-id={cocktail.idDrink}
                   onClick={this.getDetails.bind(this)}
                 >
-                  {cocktail.strDrink}
+                  View drink details
                 </button>
               </div>
             </div>
