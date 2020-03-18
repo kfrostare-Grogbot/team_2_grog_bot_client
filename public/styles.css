@@ -27,6 +27,28 @@ li {
   vertical-align: bottom !important;
 }
 
+#card.small.cocktail-container.content.header {
+  font-size: 50px;
+}
+
+#front_button {
+  justify-content: center;
+  margin-top: 10%;
+  border: none;
+  padding: 15px;
+  color: #2c2c33;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  background-color: #e0e1e2;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  
+}
+
 /* This is the container that holds the cocktail card */
 #specific-cocktail-container.card {
   padding-bottom: 30px;
@@ -45,7 +67,12 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
   font-weight: 700;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+/* This is the submit button */
+.ui.large.button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* Hälsningsmeddelandet */

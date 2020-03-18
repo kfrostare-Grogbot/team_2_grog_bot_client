@@ -53,6 +53,7 @@ class SelectIngredients extends Component {
               <div className="header">{cocktail.strDrink}</div>
               <div class="description_bottom">
                 <button
+                  id="front_button"
                   key={cocktail.idDrink}
                   data-id={cocktail.idDrink}
                   onClick={this.getDetails.bind(this)}
