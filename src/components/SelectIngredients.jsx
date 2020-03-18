@@ -51,7 +51,7 @@ class SelectIngredients extends Component {
             </div>
             <div class="content">
               <div className="header">{cocktail.strDrink}</div>
-              <div class="description bottom">
+              <div class="description_bottom">
                 <button
                   key={cocktail.idDrink}
                   data-id={cocktail.idDrink}
@@ -81,7 +81,7 @@ class SelectIngredients extends Component {
             />
           </div>
           <div className="content">
-            <div className="header">{cocktailDetails.name}</div>
+            <div className="header1">{cocktailDetails.name}</div>
             <div className="meta">{cocktailDetails.category}</div>
             <div className="description">
               Ingredients:
@@ -106,6 +106,7 @@ class SelectIngredients extends Component {
     return (
       <>
         <div className="top">
+          <p>Let's get you some cocktails! Select a virgin ingredient.</p>
           <ShowIngredients setIngredient={this.setIngredient.bind(this)} />
 
           <Button size="large" onClick={this.submitHandler.bind(this)}>

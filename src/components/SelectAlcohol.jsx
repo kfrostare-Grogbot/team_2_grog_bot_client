@@ -63,7 +63,7 @@ class SelectAlcohol extends Component {
           <option value='Smaksatt sprit'>Flavoured Liquor</option>
           <option value='Smaksatt vodka'>Flavoured Vodka</option>
         </select>
-        <button onClick={this.onSearchHandler.bind(this)}>Search</button>
+        <button id="search_button" onClick={this.onSearchHandler.bind(this)}>Search</button>
         <div id='alcohol_list' className='ui cards'>{alcoholIndex}</div>
       </>
     )
