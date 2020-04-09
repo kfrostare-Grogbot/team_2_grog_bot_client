@@ -4,17 +4,13 @@
 The GrogBot App is a drink application that lets visitors choose a virgin ingredient which once submitted offers a list of drinks. The drinks show ingredients, instructions and type of glass. As the app is connected to a local Swedish liquor provider through an API you can also view a list of the liquors you can purchase in your local store, all Swedish brands of course.
 
 ### What would you need
-
-#### Two repos will need forking
-This application has two repositories; the client (this one) and the API([here](https://github.com/kfrostare-Grogbot/team_2_grog_bot_api)). You will need them both to get this App going. 
-
-This application is dependent on the 
+This application has two repositories; the client (this one) and the API([here](https://github.com/kfrostare-Grogbot/team_2_grog_bot_api)). You will need to fork them both to get this App going.
 
 ### Installing
-1. Fork this and [The Other]() Git Repository
+1. Fork this and [The Other](https://github.com/kfrostare-Grogbot/team_2_grog_bot_api) Git Repository
 2. Install [Yarn](https://yarnpkg.com/) if you don't already have it
 3. Install Jest, Enzyme and Cypress (links below for more on how to get these installed to your OS)
-4. For deployment we recommend [Netlify](https://www.netlify.com/) and [Heroku](https://www.heroku.com/)
+4. For deployment we recommend [Netlify](https://www.netlify.com/)
 
 ### Tested using
 * [Jest](https://jestjs.io/en/)
